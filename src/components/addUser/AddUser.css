@@ -1,0 +1,44 @@
+.add-user {
+    padding: 30px;
+    background-color: rgba(40, 40, 40, 0.8);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.add-user form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.add-user button {
+    padding: 3%;
+    background-color: black;
+    font-size: 10px;
+}
+
+.add-user button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.add-user .user {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-user .user .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}

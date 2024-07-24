@@ -1,0 +1,28 @@
+.user-info {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.fa-solid {
+    cursor: pointer;
+}

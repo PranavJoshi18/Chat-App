@@ -1,0 +1,52 @@
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.login .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.login button {
+    margin-top: 1rem;
+    width: 90%;
+    padding: 5%;
+}
+
+.login label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.login input {
+    padding: 5%;
+}
+
+.login label img {
+    border-radius: 20%;
+}
+
+.separator {
+    height: 80%;
+    width: 2px;
+    background-color: rgba(0, 0, 0,0.1);
+}
