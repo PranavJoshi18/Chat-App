@@ -1,7 +1,7 @@
 // Used Zustand in order to store and maintain global states!
 
 
-import { doc, getDocFromCache, getDocFromServer } from 'firebase/firestore';
+import { doc, getDocFromServer } from 'firebase/firestore';
 import { create } from 'zustand'
 import { db } from './firebase';
 export const useUserStore = create((set) => ({

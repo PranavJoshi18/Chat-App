@@ -1,9 +1,6 @@
 // Used Zustand in order to store and maintain global states!
 
-
-import { doc, getDocFromCache, getDocFromServer } from 'firebase/firestore';
 import { create } from 'zustand'
-import { db } from './firebase';
 export const useChatStore = create((set) => ({
   chatId: null,
   user: null,
